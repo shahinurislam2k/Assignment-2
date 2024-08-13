@@ -13,7 +13,9 @@
    .banner-description{
     font-size: 1rem;
 }
-
+.section-title{
+    font-size: 2rem;
+}
 
 
 
@@ -83,14 +85,34 @@
     .habit-container-section{
         padding: 0;
     }
-    .section-title{
-        font-size: 2rem;
-    }
     .habit-parent-card{
         gap: 2.5rem;
         flex-direction: column;
         align-items: center;
     }
+
+
+    /* Mile Section */
+.mile-container-section{
+    padding: 32px;
+    margin: 70px 20px 0px 20px;
+    flex-direction: column;
+    gap: 31px;
+}
+.mile-text-container,
+.mile-images-container{
+    width: 100%;
+}
+
+.mile-images-container img{
+    width:100%;
+    height: 16rem;
+    object-fit:fill; 
+}
+.mile-button-1{
+    margin-top: 24px;
+    
+}
 
 
 

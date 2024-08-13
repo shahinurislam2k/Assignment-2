@@ -75,7 +75,8 @@ body{
 
 .nav-container,
 .banner-container,
-.habit-container-section{
+.habit-container-section,
+.mile-container-section{
     max-width: 1060px;
     margin: 0 auto;
 }
@@ -151,7 +152,7 @@ header{
     margin-bottom: 28px;
 }
 .shape{
-    font-family: ;
+    
 }
 .banner-btn{
     margin-top: 28px;
@@ -227,17 +228,13 @@ header{
     padding-top: 140px;
     padding-bottom: 100px;
 }
-
-
 .habit-container-content{
     margin-top: 60px;
 }
-
 .habit-parent-card{
     gap: 2.5rem;
     justify-content: center;
 }
-
 .habit-child-card{
     width: 231px;
 }
@@ -262,4 +259,34 @@ header{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+
+
+/* Mile Section */
+.mile-container-section{
+    background-color: #222222;
+    border-radius: 16px;
+    padding: 40px 55px;
+    display: flex;
+    gap: 165px;
+}
+.mile-text-container{
+    width: 50%;
+    align-content: center;
+}
+.mile-images-container{
+    width: 50%;
+    margin: 0 auto     ;
+    
+}
+.mile-images-container img{
+    width: 25.5rem;
+    height: 23rem;
+    border-radius: 18px;
+    object-fit: none; 
+    object-position: 67% 34%;
+}
+.mile-button-1{
+    margin-top: 34px;
 }
