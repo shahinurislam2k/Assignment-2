@@ -1,7 +1,8 @@
 /* Small devices (phones) */
 @media screen and (max-width:576px) {
     /* Shared responsive */
-    .banner-container{
+    .banner-container,
+    .habit-container-text{
     padding: 0 20px;
    } 
 
@@ -27,6 +28,8 @@
         display: block;
         color: rgb(255, 255, 255);
     }
+
+
 
     /* banner responsive */
     .banner-text-container{
@@ -54,14 +57,12 @@
         left: 70%;
         transform: translate(-30%, -80%);
         padding:10px 10px ;
-    
     }.banner-card-title-1{
         font-size: 1.89rem;
     }
     .banner-card-description-1{
         font-size: 0.617rem;
     }
-
     .banner-images-card-2{
         width: 40%;
         position: absolute;
@@ -77,11 +78,32 @@
         font-size: 0.750rem;
     }
 
- 
-    
+
+    /* habit-section */
+    .habit-container-section{
+        padding: 0;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .habit-parent-card{
+        gap: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,13 +113,40 @@
 
 
 /* Medium devices (tablets) */
-@media screen and (min-with:576px) and (max-width:992px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
  /* Shared responsive */
 
-    
+
+/* nav style */
+ /* .nav-container{
+    border: 10px solid rgb(223, 14, 112);
+    padding: 52px 30px 0px 30px;
+
+   } 
+   .nav-menu-items{
+    gap: 20px;
+    padding: 4px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+
+} */
+
+/* banner style */
+ /* .banner-container {
+    border: 10px solid rgb(14, 223, 49);
+    flex-direction: column;
+}
+.banner-text-container{
+    border: 10px solid rgb(14, 98, 223);
 
 
+}
+.banner-images-container{
+    border: 10px solid rgb(251, 255, 0);
 
-
+} */
 
 }

@@ -33,8 +33,13 @@ body{
 }
 .section-title{
     font-size: 3rem;
-    font-weight: black;
+    font-weight: 800;
     color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.section-text-align{
+   text-align: center;
+
 }
 .section-description{
     font-size: 0.875rem ;
@@ -57,11 +62,31 @@ body{
     margin-bottom: 14px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 .nav-container,
-.banner-container{
+.banner-container,
+.habit-container-section{
     max-width: 1060px;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
 
 
 /* navbar style */
@@ -103,6 +128,8 @@ body{
     border-radius: 46px;
     border: none;
 }
+
+
 /* banner style */
 header{
     background: linear-gradient(180.00deg, rgb(54, 54, 54),rgba(0, 0, 0, 0) 80%);
@@ -111,8 +138,6 @@ header{
 .banner-container{
     align-items: center;
     gap: 170px;
-    margin-bottom: 100px;
-    
 }
 .banner-text-container{
     width: 520px;
@@ -159,7 +184,6 @@ header{
     border-radius: 16px;
     padding: 18px 10px;
     backdrop-filter: blur(15px);
-
 }
 .banner-card-title-1{
     font-size: 2.5rem;
@@ -178,15 +202,12 @@ header{
     border-radius: 16px;
     padding: 25px 13px;
     backdrop-filter: blur(15px);
-
-
 }
 .banner-card-circle{
     width: 40px ;
     height: 40px ;
     background-color: #E6533C;
     border-radius: 50%;
-
 }
 .banner-card-title-2{
     font-size: 1.5rem;
@@ -201,6 +222,44 @@ header{
 }
 
 
+/* habit-section */
+.habit-container-section{
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
 
 
+.habit-container-content{
+    margin-top: 60px;
+}
 
+.habit-parent-card{
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.habit-child-card{
+    width: 231px;
+}
+.habit-card-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.habit-card-img img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.habit-card-title{
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+}
+.habit-card-description{
+    font-size: 0.875rem ;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
