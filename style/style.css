@@ -76,7 +76,9 @@ body{
 .nav-container,
 .banner-container,
 .habit-container-section,
-.mile-container-section{
+.mile-container-section,
+.calculator-container,
+.calculator-container-section{
     max-width: 1060px;
     margin: 0 auto;
 }
@@ -289,4 +291,70 @@ header{
 }
 .mile-button-1{
     margin-top: 34px;
+}
+
+
+/* Calculator Section */
+.calculator-container{
+    padding: 88px 0px 88px 200px;
+}
+.calculator-section{
+    background-color: #222222;
+    padding: 50px 0;
+}
+.calculator-container-section{
+    display: flex;
+    gap: 175px;
+}
+.calculator-chart{
+    width: 30%;
+}
+.calculate-bmi{
+    width: 50%;
+}
+.calculator-chart-title{
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 52px 0;
+}
+th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    color: #ffffff;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.calculate-button-1{
+    margin-top:34px;
+    margin-bottom: 34px;
+}
+.calculator-bmi-title{
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 52px;
+    margin-bottom:14px ;
+}
+.calculate-bmi-from{
+    margin-top: 34px;
+    display: flex;
+    gap: 12px;
+}
+input,select,option{
+    width: 100%;
+    font-size: 0.875rem ;
+    font-weight: 400;
+    color: rgba(172, 164, 164, 0.5);
+    background-color: #383838;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
 }

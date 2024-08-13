@@ -2,7 +2,10 @@
 @media screen and (max-width:576px) {
     /* Shared responsive */
     .banner-container,
-    .habit-container-text{
+    .habit-container-text,
+    .calculator-container,
+    .calculator-chart,
+    .calculate-bmi{
     padding: 0 20px;
    } 
 
@@ -113,6 +116,68 @@
     margin-top: 24px;
     
 }
+
+
+
+/* Calculator Section */
+.calculator-container{
+    margin: 32px 0;
+}
+.calculator-section{
+    padding-bottom: 43px;
+}
+.calculator-container-section{
+    flex-direction: column;
+    gap:42px;
+}
+.calculator-chart{
+    width: 100%;
+}
+.calculate-bmi{
+    width: 100%;
+}
+.calculator-bmi-title{
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 
