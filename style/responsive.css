@@ -8,7 +8,8 @@
     .calculate-bmi,
     .team-content-container,
     .footer-content-container,
-    .footer-logo-container{
+    .footer-logo-container,
+    .trainings-text-container{
     padding: 0 20px;
    } 
 
@@ -120,6 +121,25 @@
     
 }
 
+/* Trainings and Exercises */
+.trainings-container-section{
+    margin-top: 64px;
+}
+.trainings-text-container{
+    margin-bottom: 38px;
+}
+.trainings-container-section img{
+    height: 126px;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: 0px 150px repeat(1, 1fr);
+}
+.row-2{
+    display: grid;
+    grid-template-columns: 0px 200px repeat(1, 1fr);
+
+}
 
 /* Calculator Section */
 .calculator-container{
@@ -175,6 +195,27 @@
     padding-top: 41px;
     padding-bottom: 57px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
