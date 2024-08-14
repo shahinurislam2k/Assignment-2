@@ -61,17 +61,7 @@ body{
 .section-text-align{
     align-items: center;
     margin-bottom: 14px;
-
 }
-
-
-
-
-
-
-
-
-
 
 .nav-container,
 .banner-container,
@@ -86,15 +76,6 @@ body{
     max-width: 1060px;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
 
 /* navbar style */
 .nav-container{
@@ -297,11 +278,6 @@ header{
 .mile-button-1{
     margin-top: 34px;
 }
-
-
-
-
-
 
 
 /* Trainings and Exercises */
